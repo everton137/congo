@@ -4,6 +4,9 @@ module.exports = {
     "./content/**/*.{html,md}",
     "./themes/congo/layouts/**/*.html",
     "./themes/congo/content/**/*.{html,md}",
+    // Site files (relative to theme dir)
+    "../../layouts/**/*.{html,md}",
+    "../../content/**/*.{html,md}",
   ],
   darkMode: "class",
   theme: {
