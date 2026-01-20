@@ -2366,11 +2366,6 @@ code {
   background-color: rgba(var(--color-neutral-500), 0.5);
 }
 
-.bg-neutral-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(var(--color-neutral-900), var(--tw-bg-opacity, 1));
-}
-
 .bg-neutral\/50 {
   background-color: rgba(var(--color-neutral), 0.5);
 }
@@ -2701,6 +2696,10 @@ code {
 
 .decoration-neutral-300 {
   text-decoration-color: rgba(var(--color-neutral-300), 1);
+}
+
+.decoration-primary-300 {
+  text-decoration-color: rgba(var(--color-primary-300), 1);
 }
 
 .decoration-primary-500 {
@@ -3117,6 +3116,10 @@ code {
   text-decoration-color: rgba(var(--color-primary-400), 1);
 }
 
+.hover\:decoration-primary-500:hover {
+  text-decoration-color: rgba(var(--color-primary-500), 1);
+}
+
 .hover\:decoration-2:hover {
   text-decoration-thickness: 2px;
 }
@@ -3314,6 +3317,10 @@ code {
   text-decoration-color: rgba(var(--color-neutral-700), 1);
 }
 
+.dark\:decoration-primary-700:is(.dark *) {
+  text-decoration-color: rgba(var(--color-primary-700), 1);
+}
+
 .dark\:hover\:border-primary-600:hover:is(.dark *) {
   --tw-border-opacity: 1;
   border-color: rgba(var(--color-primary-600), var(--tw-border-opacity, 1));
@@ -3346,6 +3353,10 @@ code {
 
 .dark\:hover\:decoration-neutral-300:hover:is(.dark *) {
   text-decoration-color: rgba(var(--color-neutral-300), 1);
+}
+
+.dark\:hover\:decoration-primary-300:hover:is(.dark *) {
+  text-decoration-color: rgba(var(--color-primary-300), 1);
 }
 
 .dark\:focus\:bg-primary-900:focus:is(.dark *) {
