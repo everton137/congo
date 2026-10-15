@@ -21,7 +21,7 @@ These instructions will get you up and running using Hugo and Congo from a compl
 If you haven't used Hugo before, you will need to [install it onto your local machine](https://gohugo.io/getting-started/installing). You can check if it's already installed by running the command `hugo version`.
 
 {{< alert >}}
-Make sure you are using **Hugo extended version 0.128.0** or later as the theme takes advantage of some of the latest Hugo features.
+Make sure you are using **Hugo extended version 0.158.0** or later as the theme takes advantage of some of the latest Hugo features.
 {{< /alert >}}
 
 You can find detailed installation instructions for your platform in the [Hugo docs](https://gohugo.io/getting-started/installing).
@@ -113,6 +113,7 @@ Once you've copied the files, your config folder should look like this:
 ```shell
 config/_default/
 ├─ hugo.toml
+├─ languages.en.toml
 ├─ markup.toml
 ├─ menus.toml
 ├─ module.toml  # if you installed using Hugo Modules
